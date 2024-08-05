@@ -24,11 +24,11 @@ provider "powerplatform" {
    dataverse = {
     language_code     = 1033
     currency_code     = "EUR"
-    security_group_id = "00000000-0000-0000-0000-000000000000"
+    security_group_id = "00000000-0000-0000-0000-000000000000"  
    }
  }
 
- resource "powerplatform_environment" "dev" {
+ resource "powerplatform_environment" "test2" {
    location          = "europe"
    display_name      = "github-terraform-test2"
    environment_type  = "Sandbox"
