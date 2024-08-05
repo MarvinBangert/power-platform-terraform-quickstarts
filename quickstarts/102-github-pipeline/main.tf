@@ -28,7 +28,7 @@ provider "powerplatform" {
    }
  }
 
- resource "powerplatform_environment" "dev" {
+ resource "pp_environment" "dev" {
    location          = "europe"
    display_name      = "github-terraform-test2"
    environment_type  = "Sandbox"
