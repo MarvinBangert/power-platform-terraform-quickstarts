@@ -38,3 +38,6 @@ provider "powerplatform" {
     security_group_id = "00000000-0000-0000-0000-000000000000"
    }
  }
+
+data "powerplatform_data_loss_prevention_policies" "tenant_data_loss_prevention_policies" {
+}
